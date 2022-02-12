@@ -1,0 +1,54 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section > div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+section {
+  padding: 20px;
+}
+
+span {
+  font-size: 2rem;
+}
+
+.changeQty {
+  background-color: aqua;
+  padding: 0.5rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+
+.digits {
+  border: 1px solid aqua;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.cost {
+  background-color: aqua;
+}
+
+.amount {
+  width: 200px;
+  text-align: center;
+}
